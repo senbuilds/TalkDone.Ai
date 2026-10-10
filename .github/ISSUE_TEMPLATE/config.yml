@@ -4,5 +4,5 @@ contact_links:
     url: https://talkdone.ai/download.html
     about: Get the latest version / 下载最新版本
   - name: ✉️ Billing, account & security / 账单、账号与安全
-    url: https://github.com/senbuilds/TalkDone.Ai#billing-account--security--账单账号与安全
+    url: https://github.com/senbuilds/TalkDone.Ai#billing-account--security
     about: Email info@talkdone.ai privately, don't open a public issue / 请发邮件到 info@talkdone.ai，不要公开提交
