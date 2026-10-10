@@ -1,23 +1,23 @@
-name: ⌨️ App compatibility / 某个 App 里无法输入
-description: TalkDone doesn't work in a specific app / 在某个 App 里不能用或文字填不进去
+name: ⌨️ App compatibility
+description: TalkDone doesn't work in a specific app
 title: "[Compatibility] "
 labels: ["compatibility", "needs-triage"]
 body:
   - type: checkboxes
     id: preflight
     attributes:
-      label: Before submitting / 提交前确认
+      label: Before submitting
       options:
-        - label: I searched existing issues and this has not been reported / 我已搜索过，没有人提过
+        - label: I searched existing issues and this has not been reported
           required: true
-        - label: One issue per report / 一个问题只提一次
+        - label: One issue per report
           required: true
-        - label: No recordings, passwords or private text included / 没有附上录音、密码或私人内容
+        - label: No recordings, passwords or private text included
           required: true
   - type: dropdown
     id: platform
     attributes:
-      label: Platform / 平台
+      label: Platform
       options:
         - macOS
         - Windows
@@ -28,32 +28,32 @@ body:
   - type: input
     id: version
     attributes:
-      label: TalkDone version / 版本号
-      description: Settings → About / 设置 → 关于
+      label: TalkDone version
+      description: Settings → About
       placeholder: "1.7"
     validations:
       required: true
   - type: input
     id: app
     attributes:
-      label: App name and version / App 名称和版本
+      label: App name and version
       placeholder: "e.g. WeChat 4.0, Slack, VS Code"
     validations:
       required: true
   - type: textarea
     id: what
     attributes:
-      label: What happens? / 发生了什么？
-      placeholder: "Nothing appears / text appears twice / wrong position ... / 没出字、出了两遍、位置不对……"
+      label: What happens?
+      placeholder: "Nothing appears, text appears twice, wrong position ..."
     validations:
       required: true
   - type: dropdown
     id: other_apps
     attributes:
-      label: Does it work in other apps? / 在其他 App 里正常吗？
+      label: Does it work in other apps?
       options:
-        - "Yes / 正常"
-        - "No / 也不正常"
-        - "Not sure / 不确定"
+        - "Yes"
+        - "No"
+        - "Not sure"
     validations:
       required: true

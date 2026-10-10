@@ -1,23 +1,23 @@
-name: 🐛 Bug report / 问题报告
-description: Something doesn't work as expected / 功能出错、闪退、没反应
+name: 🐛 Bug report
+description: Something doesn't work as expected
 title: "[Bug] "
 labels: ["bug", "needs-triage"]
 body:
   - type: checkboxes
     id: preflight
     attributes:
-      label: Before submitting / 提交前确认
+      label: Before submitting
       options:
-        - label: I searched existing issues and this has not been reported / 我已搜索过，没有人提过
+        - label: I searched existing issues and this has not been reported
           required: true
-        - label: One issue per report / 一个问题只提一次
+        - label: One issue per report
           required: true
-        - label: No recordings, passwords or private text included / 没有附上录音、密码或私人内容
+        - label: No recordings, passwords or private text included
           required: true
   - type: dropdown
     id: platform
     attributes:
-      label: Platform / 平台
+      label: Platform
       options:
         - macOS
         - Windows
@@ -28,40 +28,40 @@ body:
   - type: input
     id: version
     attributes:
-      label: TalkDone version / 版本号
-      description: Settings → About / 设置 → 关于
+      label: TalkDone version
+      description: Settings → About
       placeholder: "1.7"
     validations:
       required: true
   - type: dropdown
     id: area
     attributes:
-      label: Area / 哪个功能
+      label: Area
       options:
-        - Recording & hotkey / 录音与快捷键
-        - Streaming text / 边说边出字
-        - Cleanup / 整理
-        - Typing into apps / 文字填入输入框
-        - Account & login / 账号与登录
-        - Other / 其他
+        - Recording & hotkey
+        - Streaming text
+        - Cleanup
+        - Typing into apps
+        - Account & login
+        - Other
     validations:
       required: true
   - type: textarea
     id: what
     attributes:
-      label: What happened? / 发生了什么？
+      label: What happened?
     validations:
       required: true
   - type: textarea
     id: expected
     attributes:
-      label: What did you expect? / 你期望的结果
+      label: What did you expect?
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
-      label: Steps to reproduce / 复现步骤
+      label: Steps to reproduce
       placeholder: |
         1.
         2.
@@ -71,4 +71,4 @@ body:
   - type: textarea
     id: extra
     attributes:
-      label: Screenshots or logs / 截图或日志（可选，请先打码）
+      label: Screenshots or logs (optional, mask anything private)

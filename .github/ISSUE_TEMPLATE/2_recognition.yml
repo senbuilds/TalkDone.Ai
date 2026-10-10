@@ -1,5 +1,5 @@
-name: 🎯 Recognition or cleanup error / 识别或整理不准
-description: Words were misheard, or the cleanup changed your meaning / 字认错了，或整理后意思变了
+name: 🎯 Recognition or cleanup error
+description: Words were misheard, or the cleanup changed your meaning
 title: "[Recognition] "
 labels: ["recognition", "needs-triage"]
 body:
@@ -7,22 +7,21 @@ body:
     attributes:
       value: |
         ⚠️ Please do **not** upload recordings. Type out what you said instead, and mask anything private.
-        ⚠️ 请**不要**上传录音。把你说的话打出来就行，私人内容请先打码。
   - type: checkboxes
     id: preflight
     attributes:
-      label: Before submitting / 提交前确认
+      label: Before submitting
       options:
-        - label: I searched existing issues and this has not been reported / 我已搜索过，没有人提过
+        - label: I searched existing issues and this has not been reported
           required: true
-        - label: One issue per report / 一个问题只提一次
+        - label: One issue per report
           required: true
-        - label: No recordings, passwords or private text included / 没有附上录音、密码或私人内容
+        - label: No recordings, passwords or private text included
           required: true
   - type: dropdown
     id: platform
     attributes:
-      label: Platform / 平台
+      label: Platform
       options:
         - macOS
         - Windows
@@ -33,42 +32,42 @@ body:
   - type: input
     id: version
     attributes:
-      label: TalkDone version / 版本号
-      description: Settings → About / 设置 → 关于
+      label: TalkDone version
+      description: Settings → About
       placeholder: "1.7"
     validations:
       required: true
   - type: dropdown
     id: language
     attributes:
-      label: Language / 语言
+      label: Language
       options:
-        - 中文
+        - Chinese
         - English
-        - Mixed / 中英混合
-        - Other / 其他
+        - Mixed
+        - Other
     validations:
       required: true
   - type: textarea
     id: said
     attributes:
-      label: What you said / 你说的原话
+      label: What you said
     validations:
       required: true
   - type: textarea
     id: got
     attributes:
-      label: What TalkDone typed / TalkDone 输出的文字
+      label: What TalkDone typed
     validations:
       required: true
   - type: textarea
     id: want
     attributes:
-      label: What you expected / 你期望的文字
+      label: What you expected
     validations:
       required: true
   - type: input
     id: context
     attributes:
-      label: Context / 使用场景（可选）
-      placeholder: "e.g. names, product terms, code / 例如人名、专业词、写代码"
+      label: Context (optional)
+      placeholder: "e.g. names, product terms, code"
