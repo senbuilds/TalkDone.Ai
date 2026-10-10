@@ -29,7 +29,7 @@ macOS · Windows · Android · iPhone (beta)
 
 Have a question, a tip, or want to share how you use TalkDone? Join [Discussions](https://github.com/senbuilds/TalkDone.Ai/discussions).
 
-What's new in each version: [Releases](https://github.com/senbuilds/TalkDone.Ai/releases). Click **Watch → Custom → Releases** to get notified.
+What's new in each version: [Release notes](https://github.com/senbuilds/TalkDone.Ai/discussions/1). Click **Subscribe** on that post to get notified.
 
 ## Report a bug or request a feature
 

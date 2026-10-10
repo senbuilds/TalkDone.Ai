@@ -29,7 +29,7 @@ macOS · Windows · Android · iPhone（内测）
 
 使用上的问题、技巧，或者想分享你怎么用 TalkDone，欢迎到 [Discussions 讨论区](https://github.com/senbuilds/TalkDone.Ai/discussions)。
 
-每个版本的更新内容见 [Releases](https://github.com/senbuilds/TalkDone.Ai/releases)。点 **Watch → Custom → Releases** 可以订阅新版本通知。
+每个版本的更新内容见[更新日志](https://github.com/senbuilds/TalkDone.Ai/discussions/1)。在那篇帖子上点 **Subscribe** 可以订阅新版本通知。
 
 ## 反馈问题与建议
 
