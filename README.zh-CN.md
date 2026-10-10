@@ -25,6 +25,12 @@ TalkDone 用的是我们自己训练的整理模型，从一开始就为「高�
 
 macOS · Windows · Android · iPhone（内测）
 
+## 提问与交流
+
+使用上的问题、技巧，或者想分享你怎么用 TalkDone，欢迎到 [Discussions 讨论区](https://github.com/senbuilds/TalkDone.Ai/discussions)。
+
+每个版本的更新内容见 [Releases](https://github.com/senbuilds/TalkDone.Ai/releases)。点 **Watch → Custom → Releases** 可以订阅新版本通知。
+
 ## 反馈问题与建议
 
 本仓库是 TalkDone 的公开反馈区，产品本身不开源。

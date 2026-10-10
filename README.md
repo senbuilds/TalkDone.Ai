@@ -25,6 +25,12 @@ Download for your device: **https://talkdone.ai/download.html**
 
 macOS · Windows · Android · iPhone (beta)
 
+## Questions & community
+
+Have a question, a tip, or want to share how you use TalkDone? Join [Discussions](https://github.com/senbuilds/TalkDone.Ai/discussions).
+
+What's new in each version: [Releases](https://github.com/senbuilds/TalkDone.Ai/releases). Click **Watch → Custom → Releases** to get notified.
+
 ## Report a bug or request a feature
 
 This repository is TalkDone's public issue tracker. TalkDone itself is closed source.

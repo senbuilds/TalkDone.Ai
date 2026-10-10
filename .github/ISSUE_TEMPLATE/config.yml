@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: 💬 Questions & ideas
+    url: https://github.com/senbuilds/TalkDone.Ai/discussions
+    about: Ask how to use TalkDone or chat with other users
   - name: 🌐 Website & download
     url: https://talkdone.ai/download.html
     about: Get the latest version
