@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🌐 Website & download / 官网与下载
+    url: https://talkdone.ai/download.html
+    about: Get the latest version / 下载最新版本
+  - name: ✉️ Billing, account & security / 账单、账号与安全
+    url: mailto:info@talkdone.ai
+    about: Please email us privately instead of opening a public issue / 请发邮件私下联系，不要公开提交

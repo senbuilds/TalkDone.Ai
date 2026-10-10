@@ -1,0 +1,34 @@
+name: 💡 Feature request / 功能建议
+description: Suggest an idea or improvement / 提一个想法或改进
+title: "[Feature] "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before submitting / 提交前确认
+      options:
+        - label: I searched existing issues; if it exists, I 👍 it instead / 我已搜索过，已有的话我去点 👍
+          required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve? / 你想解决什么问题？
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea / 你的建议
+    validations:
+      required: true
+  - type: dropdown
+    id: platforms
+    attributes:
+      label: Platforms / 适用平台
+      multiple: true
+      options:
+        - macOS
+        - Windows
+        - iPhone
+        - Android
